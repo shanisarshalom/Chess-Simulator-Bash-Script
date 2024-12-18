@@ -40,7 +40,8 @@ The use of `parse_moves.py`
 Repository Contents
 -------------------
 
-*   **chess\_game**: `.pgn` file.
+*   **chess\_game.pgn**: A sample PGN file for testing.
 *   **parse\_moves.py**: Python script to convert PGN to UCI notation.
 *   **chess\_sim.sh**: Bash script for simulating chess games.
 *   **split_pgn.sh**: Bash script to split PGN files into individual games.
+*   **pgn_to_split.pgn**: A sample PGN file containing multiple chess games for testing the split_pgn.sh script.
