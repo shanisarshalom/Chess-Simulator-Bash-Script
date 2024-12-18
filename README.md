@@ -5,13 +5,15 @@ Chess Simulator Bash Script
 Overview
 --------
 
-Developed a Bash script `chess_sim.sh` that simulates a chess game using Portable Game Notation (PGN) files. The script will utilize `parse_moves.py`, a provided Python script, to convert PGN moves to Universal Chess Interface (UCI) format for easier manipulation.
+This project includes two Bash scripts designed for working with chess games recorded in Portable Game Notation (PGN) files:
+1. `chess_sim.sh`: Simulates chess games by processing PGN files. The script uses a Python utility (parse_moves.py) to convert PGN moves into the Universal Chess Interface (UCI) format. This conversion simplifies the manipulation and analysis of chess games, making it easier to interface with modern chess engines.
+2. `split_pgn.sh`: Processes PGN files containing multiple chess games by splitting them into individual game files. Each game is saved as a separate file in a user-specified destination directory, enabling better organization and easier analysis of multiple games.
 
 Objectives
 ----------
 
 *   Parse chess games from PGN files.
-*   Display and manipulate chess games in the terminal using Bash.
+*   Simulate and manipulate chess games directly in the terminal using Bash.
 *   Convert chess notation from PGN to UCI using Python.
 
 About PGN and UCI
@@ -39,5 +41,6 @@ Repository Contents
 -------------------
 
 *   **chess\_game**: `.pgn` file.
-*   **parse\_moves.py**: Python script for converting notation.
-*   **chess\_sim.sh**: Your Bash script to run the simulation.
+*   **parse\_moves.py**: Python script to convert PGN to UCI notation.
+*   **chess\_sim.sh**: Bash script for simulating chess games.
+*   **split_pgn.sh**: Bash script to split PGN files into individual games.
