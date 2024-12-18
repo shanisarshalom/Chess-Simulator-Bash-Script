@@ -38,6 +38,6 @@ The use of `parse_moves.py`
 Repository Contents
 -------------------
 
-*   **chess\_games/**: Contains various `.pgn` files.
+*   **chess\_game**: `.pgn` file.
 *   **parse\_moves.py**: Python script for converting notation.
 *   **chess\_sim.sh**: Your Bash script to run the simulation.
